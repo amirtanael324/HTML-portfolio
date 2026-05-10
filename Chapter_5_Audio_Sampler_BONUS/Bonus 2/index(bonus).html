@@ -1,0 +1,26 @@
+<html>
+    <title>Exercise 5 (bonus)</title>
+    <head>
+        <script src="index(bonus).js"></script>
+        <link rel="stylesheet" href="style(bonus).css">
+    </head>
+    <body>
+        <div class="heading-container">
+            <h1>Text to Speech</h1>
+            <h1>Soundboard</h1>
+        </div>
+
+        <div class="main-layout">
+            <div class="tts-section">
+                <textarea id="text-to-speech-input" placeholder="Enter text here..."></textarea>
+                <button class="button" onclick="playTextToSpeech()">Play Text-to-Speech</button>
+            </div>
+
+            <div class="soundboard-section">
+                <button class="arrow-btn" id="left-arrow" onclick="changePage(-1)">&#8592;</button>
+                <div id="button-grid"></div>
+                <button class="arrow-btn" id="right-arrow" onclick="changePage(1)">&#8594;</button>
+            </div>
+        </div>
+    </body>
+</html>
